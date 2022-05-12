@@ -23,7 +23,7 @@ export default function App() {
               <Dictionary />
             </main>
           </div>
-          <div className="App-footer text-center fs-6 fw-lighter">
+          <div className="App-footer text-center fs-6 fw-lighter mb-5">
             This is an open-source code by Xenia.
           </div>
         </div>
