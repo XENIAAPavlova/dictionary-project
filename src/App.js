@@ -17,7 +17,7 @@ export default function App() {
               />
             </div>
             <main className="main fs-6 fw-light mb-5 mt-5">
-              <div classNmane="welcome-text text-center fs-4 fw-light mb-5">
+              <div className="welcome-text text-center fs-4 fw-light mb-5">
                 What word do you want to look up?
               </div>
               <Dictionary />
