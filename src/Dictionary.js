@@ -28,9 +28,26 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary text-center mt-5 mb-5">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
+      <form className="row justify-content-center" onSubmit={search}>
+        <div className="col-4">
+          <input
+            className="form-control"
+            type="search"
+            onChange={handleKeywordChange}
+          />
+        </div>
+        <div className="col-1">
+          <button
+            type="submit"
+            className="btn btn btn-outline-secondary justify-content-md-end"
+          >
+            Search
+          </button>
+        </div>
       </form>
+      <div className="hint mb-2 mt-4 text-center">
+        suggested words: sunset, wine, forest...
+      </div>
       <Results result={result} />
     </div>
   );

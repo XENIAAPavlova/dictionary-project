@@ -2,10 +2,31 @@
   max-width: 50%;
 }
 
+/* body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
 main {
   text-align: center;
 }
 
-p {
-  text-align: start;
+/* p {
+  text-align: center;
+} */
+
+em {
+  font-size: 16px;
+  color: #f95859;
+}
+
+.welcome-text {
+  color: #2f2e41;
+}
+
+.part-of-speech .results {
+  color: #2f2e41;
+}
+
+a {
+  text-decoration: none;
 }
