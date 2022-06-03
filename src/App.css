@@ -8,11 +8,12 @@
 
 main {
   text-align: center;
+  /* font-size: small; */
 }
 
-/* p {
+p {
   text-align: center;
-} */
+}
 
 em {
   font-size: 16px;

@@ -3,7 +3,7 @@ import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
   return (
-    <div className="meaniing justify-content-center fs-5 fw-normal mb-4">
+    <div className="meaniing justify-content-center fs-5 fw-light mb-4">
       <div className="part-of-speech row fw-bold mb-3">
         {props.meaning.partOfSpeech}
       </div>
