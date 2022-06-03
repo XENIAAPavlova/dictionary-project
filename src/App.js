@@ -6,22 +6,26 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="card shadow-lg p-3 mt-5 mb-5 bg-body rounded">
-          <div className="card-body">
-            <div className="App-header text-center">
-              <img
-                src={logo}
-                className="App-logo img-fluid"
-                alt="logo"
-                width={400}
-              />
-            </div>
-            <main className="main fs-6 fw-light mb-5 mt-5">
-              <div className="welcome-text text-center fs-4 fw-light mb-3">
-                What word do you want to look up?
+        <div className="row justify-content-center">
+          <div className="col-6">
+            <div className="card shadow-lg p-3 mt-5 mb-5 bg-body rounded">
+              <div className="card-body">
+                <div className="App-header text-center">
+                  <img
+                    src={logo}
+                    className="App-logo img-fluid mt-3"
+                    alt="logo"
+                    width={400}
+                  />
+                </div>
+                <main className="main fs-6 fw-light mb-5 mt-5">
+                  <div className="welcome-text text-center fs-4 fw-light mb-3">
+                    What word do you want to look up?
+                  </div>
+                  <Dictionary />
+                </main>
               </div>
-              <Dictionary />
-            </main>
+            </div>
           </div>
         </div>
       </div>

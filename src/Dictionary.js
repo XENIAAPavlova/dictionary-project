@@ -27,16 +27,16 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary text-center mt-5 mb-5">
+    <div className="Dictionary text-center mt-4 mb-4">
       <form className="row justify-content-center" onSubmit={search}>
-        <div className="col-4">
+        <div className="col-6">
           <input
             className="form-control"
             type="search"
             onChange={handleKeywordChange}
           />
         </div>
-        <div className="col-1">
+        <div className="col-2">
           <button
             type="submit"
             className="btn btn btn-outline-secondary justify-content-md-end"
