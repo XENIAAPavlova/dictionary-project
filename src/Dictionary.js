@@ -45,7 +45,7 @@ export default function Dictionary() {
           </button>
         </div>
       </form>
-      <div className="hint mb-2 mt-4 text-center">
+      <div className="hint mb-2 mt-4 fst-italic fs-6 text-center">
         suggested words: sunset, wine, forest...
       </div>
       <Results result={result} />
