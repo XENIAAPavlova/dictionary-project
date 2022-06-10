@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Results.css";
 import Dictionary from "./Dictionary";
 import logo from "./undraw_Bibliophile_re_xarc.png";
 
