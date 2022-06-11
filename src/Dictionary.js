@@ -27,7 +27,7 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary text-center mt-4 mb-4">
+    <div className="Dictionary mt-4 mb-4">
       <form className="row justify-content-center" onSubmit={search}>
         <div className="col-6">
           <input
@@ -45,7 +45,7 @@ export default function Dictionary() {
           </button>
         </div>
       </form>
-      <div className="hint mb-2 mt-4 fst-italic fs-6 text-center">
+      <div className="hint mb-2 mt-4 fst-italic fs-6 text-start">
         suggested words: sunset, wine, forest...
       </div>
       <Results result={result} />

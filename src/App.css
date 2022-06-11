@@ -4,6 +4,13 @@
 
 .hint {
   color: #7f5359;
+  opacity: 0.8;
+  padding-left: 137px;
+}
+
+a {
+  text-decoration: none;
+  color: #f95859;
 }
 
 main {
@@ -53,4 +60,9 @@ em {
   opacity: 0.7;
   font-size: 18px;
   font-weight: 600;
+}
+
+.App .welcome-text {
+  font-size: 22px;
+  color: #2f2e41;
 }

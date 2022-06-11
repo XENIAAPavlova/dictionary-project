@@ -19,8 +19,8 @@ export default function App() {
                     width={400}
                   />
                 </div>
-                <section className="main fs-6 fw-light mb-5 mt-5">
-                  <div className="welcome-text text-center fs-4 fw-light mb-3">
+                <section className="main fs-6 mb-5 mt-5">
+                  <div className="welcome-text text-center fs-4 fw-light mb-5">
                     What word do you want to look up?
                   </div>
                   <Dictionary />
