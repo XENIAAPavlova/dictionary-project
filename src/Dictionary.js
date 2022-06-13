@@ -54,8 +54,12 @@ export default function Dictionary() {
           </button>
         </div>
       </form>
-      <div className="hint mb-2 mt-4 fst-italic fs-6 text-start">
-        suggested words: sunset, wine, forest...
+      <div className="hint">
+        <div className="row">
+          <div className="col-12 mb-2 mt-4 fst-italic fs-6 text-center">
+            suggested words: sunset, wine, forest...
+          </div>
+        </div>
       </div>
       <Results result={result} />
       <Photos photos={photos} />

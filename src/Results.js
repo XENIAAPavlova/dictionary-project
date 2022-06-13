@@ -16,20 +16,20 @@ export default function Results(props) {
                 <div className="col-10 mx-auto">
                   <div className="main-search card shadow p-3 mt-5 mb-5 bg-body rounded">
                     <div className="row">
-                      <div className="col-6">
-                        <div className="result text-center mt-5 mb-5 bg-body rounded-3">
-                          <h2 className="result-details text-start mb-5">
+                      <div className="col-lg-6 mt-3">
+                        <div className="result text-center mt-5 mb-5 bg-body rounded-3 ms-3">
+                          <h2 className="search-word text-center pe-5 mt-5 mb-3 ms-3">
                             📖 {props.result.word}
                           </h2>
-                          <div>
+                          <span>
                             <Phonetic phonetic={phonetic} />
-                          </div>
+                          </span>
                         </div>
                       </div>
-                      <div className="col-6">
+                      <div className="col-lg-6 text-left">
                         <img
                           src={listen}
-                          className="d-none d-md-block"
+                          className="d-none d-md-block text-left"
                           alt="audio-img"
                           width={300}
                         />
