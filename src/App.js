@@ -8,8 +8,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-8">
-            <div className="card shadow-lg p-3 mt-5 mb-5 bg-body rounded">
+          <div className="col-10">
+            <div className="card shadow p-3 mt-5 mb-5 bg-body rounded">
               <div className="card-body">
                 <div className="App-header text-center">
                   <img
@@ -21,7 +21,7 @@ export default function App() {
                 </div>
                 <section className="main fs-6 mb-5 mt-5">
                   <div className="welcome-text text-center fs-4 fw-light mb-5">
-                    What word do you want to look up?
+                    🔎 What word do you want to look up?
                   </div>
                   <Dictionary />
                 </section>

@@ -13,9 +13,7 @@ export default function Phonetic(props) {
             <span className="transcription ms-3">{props.phonetic.text}</span>
           </div>
         </div>
-        {/* <div className="row">
-        <div className="col justify-content-center">{props.phonetic.text}</div>
-      </div> */}
+
       </div>
     </div>
   );
