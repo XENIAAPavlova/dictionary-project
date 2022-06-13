@@ -11,7 +11,7 @@ export default function Results(props) {
       <div className="results justify-content-start mt-5">
         {props.result.phonetics.slice(1, 2).map(function (phonetic, index) {
           return (
-            <section>
+            <section key={index}>
               <div className="row">
                 <div className="col-10 mx-auto">
                   <div className="main-search card shadow p-3 mt-5 mb-5 bg-body rounded">
@@ -19,9 +19,9 @@ export default function Results(props) {
                       <div className="col-6">
                         <div className="result text-center mt-5 mb-5 bg-body rounded-3">
                           <h2 className="result-details text-start mb-5">
-                             📖 {props.result.word}
+                            📖 {props.result.word}
                           </h2>
-                          <div key={index}>
+                          <div>
                             <Phonetic phonetic={phonetic} />
                           </div>
                         </div>
@@ -47,8 +47,8 @@ export default function Results(props) {
               <div className="definition justify-content-start">
                 {props.result.meanings.map(function (meaning, index) {
                   return (
-                    <section className="meaning">
-                      <div key={index}>
+                    <section key={index} className="meaning">
+                      <div>
                         <Meaning meaning={meaning} />
                       </div>
                     </section>
