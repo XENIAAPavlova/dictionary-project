@@ -11,7 +11,7 @@ export default function Photos(props) {
               <div className="row">
                 {props.photos.map(function (photo, index) {
                   return (
-                    <div className="col-md-4 mb-2 p-2 mx-auto">
+                    <div className="col-md-4 mb-1 p-2 mx-auto">
                       <a
                         href={photo.src.original}
                         target="_blank"
