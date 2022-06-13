@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Results.css";
+import "./App.css";
 import Results from "./Results";
 import axios from "axios";
 
@@ -37,10 +38,7 @@ export default function Dictionary() {
           />
         </div>
         <div className="col-2">
-          <button
-            type="submit"
-            className="btn btn btn-outline-secondary justify-content-md-end"
-          >
+          <button type="submit" className="btn btn justify-content-md-end">
             Search
           </button>
         </div>
