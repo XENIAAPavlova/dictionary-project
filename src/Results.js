@@ -43,8 +43,8 @@ export default function Results(props) {
         })}
         <div className="row">
           <div className="col-10 mx-auto">
-            <div className="main-search card shadow p-3 mt-5 mb-5 bg-body rounded">
-              <div className="definition justify-content-start">
+            <div className="main-search card shadow p-3 mt-2 mb-5 bg-body rounded">
+              <div className="definition mt-2 mb-2 justify-content-start">
                 {props.result.meanings.map(function (meaning, index) {
                   return (
                     <section key={index} className="meaning">

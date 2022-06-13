@@ -13,7 +13,6 @@ export default function Phonetic(props) {
             <span className="transcription ms-3">{props.phonetic.text}</span>
           </div>
         </div>
-
       </div>
     </div>
   );
