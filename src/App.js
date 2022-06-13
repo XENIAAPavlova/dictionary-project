@@ -38,7 +38,16 @@ export default function App() {
         >
           open-source{" "}
         </a>
-        code by Xenia.
+        code by{" "}
+        <a
+          href="https://www.linkedin.com/in/ksenya-pavlova-k/"
+          target="blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Xenia Pavlova
+        </a>
+        .
       </div>
     </div>
   );
